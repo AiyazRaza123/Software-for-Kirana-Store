@@ -1,0 +1,38 @@
+html,body{
+    background-color: aquamarine;
+}
+.title{
+    height:100%;
+    width:100%;
+    background:mediumseagreen;
+}
+.container{
+    text-align: center;
+    padding: 3%;
+    font-size: 180%;
+    text-decoration: solid;
+    font-style: normal;
+}
+form{
+    margin: 0px 0px;
+    padding: 65px 27px;
+    background-color: burlywood;
+    border: 5px solid rgb(42, 58, 153);
+    width: 100%;
+    height: 100%;
+}
+
+.column{
+    float: left;
+    margin: 2px 5px;
+    padding: 2px 5px;
+}
+
+.left,.middle,.right{
+    width:15%;
+}
+
+#CnameError,#InvoiceError,#mobileError,#groceryError,#quantityError,#rateError,#totalError{
+    color:red;
+    margin: 5px;
+}
